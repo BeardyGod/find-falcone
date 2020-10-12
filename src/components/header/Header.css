@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(32, 36, 36);
+}
+
+.header__title {
+  color: antiquewhite;
+  margin-top: 1.3rem;
+  font-size: 50px;
+  transition: ease all 1s;
+}
+
+.header__tag {
+  margin: 0.6rem;
+}
+
+.header__link {
+  color: #2ed;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .header__title {
+    margin-top: 0.8rem;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header__title {
+    margin-top: 0.5rem;
+    font-size: 30px;
+  }
+}
